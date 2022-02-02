@@ -1,0 +1,25 @@
+body {
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+section {
+  background-color: #1E1E1E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.object {
+  font-size: 1.6rem;
+}
+
+.objectInfo {
+  margin-left: 1rem;
+}
