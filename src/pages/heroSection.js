@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../assets/stylesheets/hero.module.scss';
 
 const Hero = () => (
-  <section>
+  <section className={`${style.section}`}>
     <h1 className={`${style.title}`}>
       <span className={`constBlue ${style.title}`}>{'<h1>'}</span>
       <span className="contentOrange">Hello! Welcome to my Portfolio</span>
@@ -18,10 +18,14 @@ const Hero = () => (
         {' '}
         <span className="curlyBraces">{'{'}</span>
       </p>
-      <p className={`contentOrange ${style.objectInfo}`}>fullName: `&apos;`João Vítor Montanholi Nunes`&apos;`,</p>
-      <p className={`contentOrange ${style.objectInfo}`}>job: `&apos;`Full-stack Developer`&apos;`,</p>
-      <p className={`contentOrange ${style.objectInfo}`}>focus: `&apos;`Front-end Developer`&apos;`</p>
-      <p className={`contentOrange ${style.objectClosing} curlyBraces`}>{'}'}</p>
+      <p className={`contentOrange ${style.objectInfo}`}>fullName: &apos;João Vítor Montanholi Nunes&apos;,</p>
+      <p className={`contentOrange ${style.objectInfo}`}>job: &apos;Full-stack Developer&apos;,</p>
+      <p className={`contentOrange ${style.objectInfo}`}>focus: &apos;Front-end Developer&apos;</p>
+      <p className={`${style.objectClosing} curlyBraces`}>
+        {'}'}
+        <span className={`${style.writeEffect}`} />
+      </p>
+
     </div>
   </section>
 );
