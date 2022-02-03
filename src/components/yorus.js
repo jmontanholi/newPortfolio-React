@@ -26,7 +26,12 @@ const Yorus = () => (
       <span className="constNameBlue">Built With:</span>
       {' '}
       <span className="curlyBraces">[</span>
-      React, React Hooks, Heroku, Ruby, Ruby on Rails, PostgreSQL
+      &apos;React&apos;,
+      &apos;React Hooks&apos;,
+      &apos;Heroku&apos;,
+      &apos;Ruby&apos;,
+      &apos;Ruby on Rails&apos;,
+      &apos;PostgreSQL&apos;
       <span className="curlyBraces">]</span>
       <span className="comma">,</span>
     </p>

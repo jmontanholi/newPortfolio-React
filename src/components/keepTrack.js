@@ -26,7 +26,11 @@ const KeepTrack = () => (
       <span className="constNameBlue">Built With:</span>
       {' '}
       <span className="curlyBraces">[</span>
-      Ruby, Ruby on Rails, CSS, Scss(Sass), PostgreSQL
+      &apos;Ruby&apos;,
+      &apos;Ruby on Rails&apos;,
+      &apos;CSS&apos;,
+      &apos;Scss(Sass)&apos;,
+      &apos;PostgreSQL&apos;
       <span className="curlyBraces">]</span>
       <span className="comma">,</span>
     </p>

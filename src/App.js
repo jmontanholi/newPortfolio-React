@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Hero from './pages/heroSection';
 import Layout from './layout';
 import Projects from './pages/projectsSection';
+import AboutMe from './pages/aboutMeSection';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/contact" />
-          <Route path="/aboutMe" />
+          <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/" element={<Hero />} />
         </Route>
