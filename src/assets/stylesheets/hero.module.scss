@@ -15,7 +15,7 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: calc(2rem + 1.5vw);
   position: absolute;
   top: 4%;
 }

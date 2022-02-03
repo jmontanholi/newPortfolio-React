@@ -12,27 +12,35 @@ const Hero = () => (
       <p className={`${style.objectOpening}`}>
         <span className="constBlue">const</span>
         {' '}
-        <span className="constNameBlue">personalInformation</span>
+        <span className="constNameBlue">Personal Information</span>
         {' '}
         =
         {' '}
         <span className="curlyBraces">{'{'}</span>
       </p>
       <p className={`contentOrange ${style.objectInfo}`}>
-        fullName: &apos;João Vítor Montanholi Nunes&apos;
+        <span className="constNameBlue">Full Name:</span>
+        {' '}
+        &apos;João Vítor Montanholi Nunes&apos;
         <span className="comma">,</span>
       </p>
       <p className={`contentOrange ${style.objectInfo}`}>
-        job: &apos;Full-stack Developer&apos;
+        <span className="constNameBlue">Job Title:</span>
+        {' '}
+        &apos;Full-stack Developer&apos;
         <span className="comma">,</span>
       </p>
       <p className={`contentOrange ${style.objectInfo}`}>
-        age:
+        <span className="constNameBlue">Age:</span>
         {' '}
         <span className="number">21</span>
         <span className="comma">,</span>
       </p>
-      <p className={`contentOrange ${style.objectInfo}`}>focus: &apos;Front-end Developer&apos;</p>
+      <p className={`contentOrange ${style.objectInfo}`}>
+        <span className="constNameBlue">Focus:</span>
+        {' '}
+        &apos;Front-end Developer&apos;
+      </p>
       <p className={`${style.objectClosing} curlyBraces`}>
         {'}'}
         <span className={`${style.writeEffect}`} />
