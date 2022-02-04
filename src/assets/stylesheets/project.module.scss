@@ -1,0 +1,23 @@
+.project {
+  font-size: 1.6rem;
+  position: relative;
+  .objectInfo {
+    margin-left: 2rem;
+  }
+  a {
+    color: #f3917d;
+  }
+  .img {
+    height: 100px;
+    margin-left: 4rem;
+    transition: 0.7s;
+  }
+  .img:hover {
+    height: 450px;
+    box-shadow: 30px 30px 100px black;
+  }
+}
+
+.picturesClosing {
+  margin-left: 2rem;
+}
