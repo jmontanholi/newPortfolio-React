@@ -4,13 +4,14 @@ import Hero from './pages/heroSection';
 import Layout from './layout';
 import Projects from './pages/projectsSection';
 import AboutMe from './pages/aboutMeSection';
+import Contact from './pages/contact';
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/contact" />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/" element={<Hero />} />
