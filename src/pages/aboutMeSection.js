@@ -39,7 +39,6 @@ const AboutMe = () => (
     </div>
     <div className={`${style.innerDiv}`}>
       <Experience />
-      <Education />
     </div>
   </section>
 );
