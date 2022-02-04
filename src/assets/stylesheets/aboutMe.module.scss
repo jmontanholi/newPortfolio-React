@@ -1,5 +1,5 @@
 .section {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   color: white;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
   a {
     text-decoration: none;
   }
@@ -35,6 +36,7 @@
 .object {
   max-width: 80%;
   font-size: 1.2rem;
+
   .objectInfo {
     margin-left: 2rem;
   }
@@ -47,6 +49,7 @@
 
 .innerObject {
   margin-left: 4rem;
+
   .modulesContent {
     color: #f3917d;
     line-height: 2rem;
