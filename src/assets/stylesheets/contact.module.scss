@@ -1,5 +1,5 @@
 .section {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   color: white;
   display: flex;
   align-items: center;
@@ -9,24 +9,28 @@
   height: 100%;
   min-width: 100vw;
   width: 100%;
+
   .titleDiv {
     width: 40%;
     font-size: calc(1rem + 0.3vw);
     margin-top: 4%;
+
     .h2Text {
       margin-left: 2rem;
       margin-bottom: 0;
     }
   }
+
   .contentDiv {
     font-size: calc(1.3rem + 0.3vw);
+
     .link {
       color: #f3917d;
       text-decoration: none;
     }
+
     .objectInfo {
       margin-left: 2rem;
     }
   }
 }
-
