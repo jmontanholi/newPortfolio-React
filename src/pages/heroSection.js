@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import style from '../assets/stylesheets/hero.module.scss';
 
 const Hero = () => (
@@ -44,6 +45,29 @@ const Hero = () => (
       <p className={`${style.objectClosing} curlyBraces`}>
         {'}'}
         <span className={`${style.writeEffect}`} />
+      </p>
+    </div>
+    <div>
+      <p className={`${style.button}`}>
+        <span className="constBlue">{'<button>'}</span>
+        <NavLink className={`${style.link} contentOrange`} to="/projects">
+          Projects
+        </NavLink>
+        <span className="constBlue">{'</button>'}</span>
+      </p>
+      <p className={`${style.button}`}>
+        <span className="constBlue">{'<button>'}</span>
+        <NavLink className={`${style.link} contentOrange`} to="/aboutMe">
+          About Me
+        </NavLink>
+        <span className="constBlue">{'</button>'}</span>
+      </p>
+      <p className={`${style.button}`}>
+        <span className="constBlue">{'<button>'}</span>
+        <NavLink className={`${style.link} contentOrange`} to="/contact">
+          Contact
+        </NavLink>
+        <span className="constBlue">{'</button>'}</span>
       </p>
     </div>
   </section>
