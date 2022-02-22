@@ -6,7 +6,7 @@ const Hero = () => (
   <section className={`${style.section}`}>
     <h1 className={`${style.title}`}>
       <span className="constBlue">{'<h1>'}</span>
-      <span className="contentOrange">Hello! Welcome to my Portfolio</span>
+      <span className={`${style.titleText} contentOrange`}>Hello! Welcome to my Portfolio</span>
       <span className="constBlue">{'</h1>'}</span>
     </h1>
     <div className={`${style.object}`}>

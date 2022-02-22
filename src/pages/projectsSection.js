@@ -8,7 +8,7 @@ const Projects = () => (
   <section className={`${style.section}`}>
     <h1 className={`${style.title}`}>
       <span className="constBlue">{'<h1>'}</span>
-      <span className="contentOrange">Projects Highlights</span>
+      <span className={`${style.titleText} contentOrange`}>Projects Highlights</span>
       <span className="constBlue">{'</h1>'}</span>
     </h1>
     <div className={`${style.projectsDiv}`}>
