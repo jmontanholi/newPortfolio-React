@@ -25,3 +25,10 @@
 .picturesClosing {
   margin-left: 2rem;
 }
+
+@media (max-width: 768px) {
+  .project {
+    margin-top: 10rem;
+    font-size: 1rem;
+  }
+}
